@@ -1,3 +1,10 @@
+
+/* NOTE:
+ * CTAD (Class Template Argument Deduction) is a C++17 feature that lets the
+ * compiler deduce template arguments from constructor arguments, so you don’t
+ * have to explicitly specify them.
+ */
+
 #include <cstddef>
 #include <cxxabi.h>
 #include <initializer_list>
